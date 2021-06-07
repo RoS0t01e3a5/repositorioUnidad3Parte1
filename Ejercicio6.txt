@@ -1,0 +1,8 @@
+Algoritmo Seis
+	varMin=0 
+	varMax=200
+	varNumero=Aleatorio(varMin,varMax)
+	Escribir "El numero aleatorio entre cero y doscietos es ", varNumero
+	varNumeroAumentado=varNumero+0.3*varNumero
+	Escribir "El numero aumentado en treinta porciento es ", varNumeroAumentado
+FinAlgoritmo

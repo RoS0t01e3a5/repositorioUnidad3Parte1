@@ -1,0 +1,7 @@
+Algoritmo Dos
+	Escribir "escriba un pais"
+	leer var1
+	Escribir "escriba la capital"
+	leer var2
+	Escribir var2, " es la capital de " ,var1
+FinAlgoritmo

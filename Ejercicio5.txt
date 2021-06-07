@@ -1,0 +1,10 @@
+Algoritmo Cinco
+	Escribir "Escriba un numero"
+	Leer varNumero
+	Si varNumero/1=varNumero Entonces
+		siguienteNumero= varNumero+1 
+		Escribir "El numero siguiente es ", siguienteNumero 
+	siNo
+		Escribir "No se puede calcular"
+	FinSi 
+FinAlgoritmo

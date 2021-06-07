@@ -1,0 +1,17 @@
+Algoritmo Once
+	Escribir  "Ingresar el valor en centimetros"
+	Leer varCm
+	Si (varCm/1=varCm) Entonces
+		varYardas=(varCm*0.0109)
+		varMetros=(varCm*0.01)
+		varPies=(varCm*0.0328)
+		varPulgada=(varCm*0.394)
+		Escribir "El valor ",varCm, " dado en cm equivale a:"
+		Escribir varYardas," yardas "
+		Escribir varMetros, " metros "
+		Escribir varPies, " Pies "
+		Escribir varPulgada, " pulgadas "
+	SiNo 
+		Escribir "No se puede calcular"
+	FinSi
+FinAlgoritmo

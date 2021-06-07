@@ -1,0 +1,14 @@
+Algoritmo Cuatro
+	Escribir "Escriba un numero"
+	Leer varNumero
+	Si varNumero es numero Entonces
+		cuadrado=varNumero*varNumero
+		cubo=cuadrado*varNumero
+		Escribir "El cuadrado del numero es ", cuadrado
+		Escribir "El cubo del numero es ", cubo
+	FinSi 
+	Si varNumero no es numero Entonces
+		Escribir "No se puede calcular"
+	FinSi
+	
+FinAlgoritmo

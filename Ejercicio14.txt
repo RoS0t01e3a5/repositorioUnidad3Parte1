@@ -1,0 +1,11 @@
+Algoritmo Catorce
+	Escribir " Ingrese un valor numerico"
+	Leer A
+	Escribir " Ingrese un segundo valor numerico"
+	Leer B
+	Si (A mod B)=0 Entonces
+		Escribir " El numero ", A, " es divisible entre ", B
+	SiNo
+		Escribir " El numero ", A, " no es divisible entre ", B
+	Fin Si
+FinAlgoritmo

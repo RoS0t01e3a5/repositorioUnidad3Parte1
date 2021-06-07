@@ -1,0 +1,12 @@
+Algoritmo Tres
+	Escribir "ingrese numero"
+	Leer varNumero
+	Si varNumero es numero Entonces
+		doble=2*varNumero
+		triple=3*varNumero
+		Escribir "El doble del numero es ", doble, "y el triple del numero es ", triple
+	FinSi
+	Si varNumero no es numero Entonces
+		Escribir "No se puede calcular"
+	FinSi
+FinAlgoritmo

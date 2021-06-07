@@ -1,0 +1,8 @@
+Algoritmo Siete
+	varMin=0 
+	varMax=50
+	varNumero=Aleatorio(varMin,varMax)
+	Escribir "El numero aleatorio entre cero y cincunta es ", varNumero
+	varNumeroAumentado=varNumero+0.3*varNumero
+	Escribir "El numero disminuido en un quince porciento es ", varNumeroAumentado
+FinAlgoritmo

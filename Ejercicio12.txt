@@ -1,0 +1,10 @@
+Algoritmo Doce
+	Escribir  "Ingresar el valor de la temperatura"
+	Leer varCelcius
+	Si (varTemperatura/1=varTemperatura) Entonces
+		temperaturaFahrenheit=((varCelcius*9/5)+32)
+		Escribir " Dicha temperatura en Fahrenheit es ", temperaturaFahrenheit
+	SiNo 
+		Escribir "No se puede calcular"
+	FinSi
+FinAlgoritmo

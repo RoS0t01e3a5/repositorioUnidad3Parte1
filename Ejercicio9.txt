@@ -1,0 +1,9 @@
+Algoritmo Nueve
+	Escribir "Indique una palabra"
+	Leer palabra
+	Escribir"Indique otra palabra"
+	Leer palabra2
+	A=palabra2
+	B=palabra
+	Mostrar "Las palabras intercambiadas serian ", A " y ", B ""
+FinAlgoritmo

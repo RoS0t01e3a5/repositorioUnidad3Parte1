@@ -1,0 +1,13 @@
+Algoritmo Quince
+	Escribir "Escriba un numero"
+	Leer N
+	Si N=0 Entonces
+		Escribir " El numero es cero"
+	SiNo
+		Si N>=0 Entonces
+			Escribir " El numero ", N, " es positivo" 
+		SiNo
+			Escribir "El numero ", N, " es negativo"
+		Fin Si
+	Fin Si
+FinAlgoritmo

@@ -1,0 +1,15 @@
+Algoritmo Trece
+	Escribir  "Escriba el valor del radio"
+	Leer varRadio
+	Si varRadio>=0 Entonces
+		Escribir "Escriba el valor de la altura"
+		Leer varAltura
+		Si varAltura >=0 Entonces
+			volumen=3.1416*varRadio*varRadio*varAltura
+		SiNo
+		Escribir"Debe escribir cantidad positiva"
+		Fin Si
+	SiNo 
+		Escribir"Debe escribir cantidad positiva"
+	FinSi
+FinAlgoritmo

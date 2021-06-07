@@ -1,0 +1,14 @@
+Algoritmo Ocho
+	Escribir  "Escriba el primer numero"
+	Leer var1
+	Escribir "Escriba el segundo numero"
+	Leer var2
+	Escribir "Escriba el tercer numero"
+	Leer var3
+Si (var1/1=var1 & var2/1=var2 &var3/1=var3) Entonces
+	promedio=(var1+var2+var3)/3 
+	Mostrar "El promedio es", promedio
+SiNo 
+	Mostrar "No se puede calcular"
+FinSi
+FinAlgoritmo 
